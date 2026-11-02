@@ -1,0 +1,33 @@
+# 1. Муҳити виртуалӣ (Virtual Environments)
+venv/
+env/
+ENV/
+.venv/
+
+# 2. Файли дорои токени махфӣ (Ҳатмӣ барои амният)
+.env
+
+# 3. Барномаҳои иҷрошавандаи Windows (Сабаби асосии хатогии боркунӣ)
+*.exe
+ffmpeg.exe
+ffprobe.exe
+
+# 4. Файлҳои видео ва аудио (Файлҳои вазнини санҷишӣ)
+*.mp4
+*.mp3
+*.m4a
+*.part
+*.ytdl
+input_*
+output_*
+audio_*
+
+# 5. Кэши Python ва файлҳои нодаркори система
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# 6. Танзимоти барномаҳои таҳрири код (VS Code, PyCharm)
+.vscode/
+.idea/
